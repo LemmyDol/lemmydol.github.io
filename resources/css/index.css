@@ -1,4 +1,5 @@
 h1 {
+   
     background-image: url("/assets/pics/pattern.jpeg");
     font-family: helvetaica ;
     font-size: 100px;
@@ -6,7 +7,13 @@ h1 {
     font-weight: bold;
     text-align: center;
     word-wrap: break-word;
-    }
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+
 
 h2.msgb {
     font-family: helvetaica ;
