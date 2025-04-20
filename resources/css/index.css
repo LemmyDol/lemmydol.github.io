@@ -45,4 +45,16 @@ h2.sbb {
 
     p {
         font-family: helvetica ;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+     }
+
+     h3 {
+        font-family: helvetica ;
+        color: white;
+        font-weight: bold;
+        background-color: lightcoral;
+        text-align: center;
      }
