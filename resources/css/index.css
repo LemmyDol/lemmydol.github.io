@@ -53,15 +53,12 @@ h2.sbb {
 
      h3 {
         font-family: helvetica ;
-        color: white;
-        font-weight: bold;
-        background-color: lightcoral;
         text-align: center;
      }
-
+/* 
      .center {
         display: block;
         margin-left: auto;
         margin-right: auto;
         width: 60%;
-     }
+     } */
