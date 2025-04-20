@@ -1,0 +1,44 @@
+h1 {
+    background-image: url("/assets/pics/pattern.jpeg");
+    font-family: helvetaica ;
+    font-size: 100px;
+    color: khaki;
+    font-weight: bold;
+    text-align: center;
+    }
+
+h2.msgb {
+    font-family: helvetaica ;
+    font-size: 32px;
+    color: white;
+    font-weight: bold;
+    background-color: mediumspringgreen;
+    }
+
+    
+h2.lcb {
+    font-family: helvetaica ;
+    font-size: 32px;
+    color: white;
+    font-weight: bold;
+    background-color: lightcoral;
+    }
+
+    
+h2.sbb {
+    font-family: helvetaica ;
+    font-size: 32px;
+    color: white;
+    font-weight: bold;
+    background-color: skyblue;
+    }
+
+    strong.price {
+        font-family: Helvetica;
+        color: blue;
+
+    }
+
+    p {
+        font-family: helvetica ;
+     }
