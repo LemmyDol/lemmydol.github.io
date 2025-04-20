@@ -14,6 +14,7 @@ h2.msgb {
     color: white;
     font-weight: bold;
     background-color: mediumspringgreen;
+    text-align: center;
     }
 
     
@@ -23,6 +24,7 @@ h2.lcb {
     color: white;
     font-weight: bold;
     background-color: lightcoral;
+    text-align: center;
     }
 
     
@@ -32,6 +34,7 @@ h2.sbb {
     color: white;
     font-weight: bold;
     background-color: skyblue;
+    text-align: center;
     }
 
     strong.price {
