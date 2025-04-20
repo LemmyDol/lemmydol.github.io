@@ -5,6 +5,7 @@ h1 {
     color: khaki;
     font-weight: bold;
     text-align: center;
+    text-wrap: normal;
     }
 
 h2.msgb {
