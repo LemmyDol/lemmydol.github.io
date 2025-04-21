@@ -1,0 +1,180 @@
+:root{
+    --main-heading-color: #fd4dda;
+    --main-bg-color: #53e8f6;
+    --main-text-color: #414040;
+    --main-font: 'Roboto Mono', Monospace, sans-serif;
+    --main-color-red: #ff0000;
+    --main-color-green: #00ff00;
+    --main-color-blue: rgb(0, 0, 255);
+    --main-bdy-bg-color: hwb(240 79% 21%);
+   
+}   
+
+body{
+    background-color: var(--main-bdy-bg-color);
+    font-family: var(--main-font);
+    font-size: 1.5rem;
+    color: var(--main-text-color);
+    
+}
+
+th#first{
+    background-color: var(--main-bg-color);
+    text-align: left;
+    padding: 7px;   
+    font-family: 'Roboto Mono', 'Monospace', sans-serif;
+    font-size: 18px;
+    color: var(--main-bg-color-light);
+    font-weight: 400;
+    
+}
+
+th#second{
+    background-color: var(--main-bg-color);
+    text-align: left;
+    padding: 7px;
+    font-family: 'Roboto Mono', 'Monospace', sans-serif;
+    font-size: 18px;
+    color: var(--main-bg-color-light);
+    font-weight: 400;
+    
+}
+
+th#third{
+    background-color: var(--main-bg-color);
+    text-align: left;
+    padding: 7px;
+    font-family: 'Roboto Mono', 'Monospace', sans-serif;
+    font-size: 18px;
+    color: var(--main-bg-color-light);
+    font-weight: 400;
+      
+}
+
+th#fourth{
+    background-color: var(--main-bdy-bg-color);
+    min-width: 2em;
+    
+}
+
+td#swatch-h1{
+    background-color: var(--main-color-red);
+    
+    max-width: 2em;
+}
+
+td#swatch-h2{
+    background-color: var(--main-color-green);
+    
+    max-width: 2em;
+    
+}
+
+td#swatch-h3{
+    background-color: var(--main-color-blue);
+    
+    max-width: 2em;
+    
+}
+
+td{
+    background-color: #d7d7d7;
+    text-align: left;
+    padding: 8px;
+    border-style: solid;
+    font-family: 'Roboto Mono', 'Monospace', sans-serif;
+    font-size: 12px;
+    color: black;
+    border-width: 1px;
+    
+}
+
+table{
+    border-collapse: collapse;
+    width: 70%;
+    margin: 0 auto;
+    font-family: 'Roboto Mono', 'Monospace', sans-serif;
+    font-size: 12px;
+    color: var(--main-text-color);
+    background-color: var(--main-bdy-bg-color);
+}
+
+ul{
+   list-style-image: url('./colorpaletepaintcolors_color_palete_pintur_6182.ico'); 
+    list-style-position:inside;
+    font-family: sans-serif;
+    font-size: 1.0rem;
+    line-height: 1.2rem;
+    width: 30%;   
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--main-text-color);
+}
+li{
+    font-family: 'Roboto Mono', 'Monospace', sans-serif;
+    font-size: 1.0rem;
+    color: var(--main-text-color);
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+    padding-bottom: 4px;
+}
+
+.main_header {
+    width: 100%;
+    font-family: 'Roboto Mono', Monospace, sans-serif;
+    font-size: 1.0rem;
+    color: var(--main-text-color);
+    background-color: var(--main-bdy-bg-color);
+    border: #414040 solid 1px;
+    box-shadow: 0 0px 8px rgba(0, 0, 0, 0.8);    
+    margin-bottom: 2em;
+    text-align: center;
+    top: 0px;
+    padding-top: 20px;
+    border-radius: 4px;
+}
+
+h2{
+    color: var(--main-text-color);
+    font-family: var(--main-font);
+    font-weight: 400;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.main_content{
+    display: block;
+    margin-top: 100px;
+    margin-bottom: 150px;
+    font-family: 'Roboto Mono', Monospace, sans-serif;
+    font-size: 1.0rem;
+    color: var(--main-text-color);
+    letter-spacing: 0.1px;
+    width: 100%;
+    
+    
+}
+
+footer {
+    font-family: 'Roboto Mono', Monospace, sans-serif;
+    font-size: 1.5vw;
+    color: var(--main-text-color);
+    background-color: var(--main-bdy-bg-color);
+    text-align: center;
+    padding: 1em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.Btop {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+p {
+    
+    text-align:center;
+}
