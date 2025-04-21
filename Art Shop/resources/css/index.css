@@ -1,9 +1,9 @@
 h1 {
    
-    background-image: url("/assets/pics/pattern.jpeg");
+    background-image: url("../../assets/pics/pattern.jpeg");
     font-family: helvetaica ;
     
-    color: khaki;
+    color: rgb(226, 214, 104);
     font-weight: bold;
     text-align: center;
     word-wrap: break-word;
