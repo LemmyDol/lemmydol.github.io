@@ -2,7 +2,7 @@ h1 {
    
     background-image: url("/assets/pics/pattern.jpeg");
     font-family: helvetaica ;
-    font-size: 100px;
+    
     color: khaki;
     font-weight: bold;
     text-align: center;
@@ -13,11 +13,53 @@ h1 {
    
 }
 
+@media only screen and (max-width: 1500px) {
+    h1 {
+      padding-top: 7rem;
+      font-size: 100px;
+    }
+    h2 {
+        font-size: 32px;
+    }
+  }
+
+@media only screen and (max-width: 1000px) {
+    h1 {
+      padding-top: 6rem;
+      font-size: 75px;
+    }
+    h2 {
+        font-size: 26px;
+    }
+  }
+  
+  @media only screen and (max-width: 590px) {
+    h1 {
+      font-size: 50px;
+      padding-top: 5rem;
+    }
+    h2 {
+        font-size: 20px;
+    }
+  }
+
+  @media only screen and (max-width: 270px) {
+    h1 {
+      font-size: 25px;
+      padding-top: 4rem;
+    }
+    h2 {
+        font-size: 14px;
+    }
+  }
+
+
+
+
 
 
 h2.msgb {
     font-family: helvetaica ;
-    font-size: 32px;
     color: white;
     font-weight: bold;
     background-color: mediumspringgreen;
@@ -30,7 +72,6 @@ h2.msgb {
     
 h2.lcb {
     font-family: helvetaica ;
-    font-size: 32px;
     color: white;
     font-weight: bold;
     background-color: lightcoral;
@@ -43,7 +84,6 @@ h2.lcb {
     
 h2.sbb {
     font-family: helvetaica ;
-    font-size: 32px;
     color: white;
     font-weight: bold;
     background-color: skyblue;
