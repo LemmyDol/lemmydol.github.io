@@ -22,3 +22,18 @@ li {
     padding: 0;
     text-align: center;
 }
+
+.button {
+    background-color: #fd3434;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: inset 0 0 5px #f8a9a9, 0 0 10px #f8a9a9, 0 0 20px #f8a9a9, 0 0 40px #f8a9a9, 0 0 80px #f8a9a9;
+}
