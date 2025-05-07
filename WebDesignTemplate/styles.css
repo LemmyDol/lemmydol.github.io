@@ -1,0 +1,317 @@
+
+.color-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-around;
+  border: #474642 2px solid;
+  color: #474642;
+  text-align: left;
+  margin: 0px auto;
+  width: 90%;
+  padding: 0px 30px;
+  margin: 30px auto;
+}
+
+
+
+.color-swatch {
+    display: inline-block;
+    border: 1px solid #000000;
+    color:cornsilk;
+    font-family: "Chicle", serif;
+    font-weight: 400;
+    width: 30%;
+    height: 150px;
+    margin: 10px auto;
+    border-radius: 15px;
+    text-align: center;
+    min-width: 200px;
+    max-width: 250px;
+}
+
+.color-swatch-text {
+  display: inline-block;
+  border: 0px solid #000000;
+  background-color: white;
+  box-shadow: #000000 0px 0px 20px 3px;
+ 
+  color: #474642;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 400;
+  width: 50%;
+  height: 70%;
+  padding: 10px 10px;
+  word-wrap: break-word;
+  margin: 20px auto;
+  border-radius: 20px;
+  text-align: center;
+
+  
+}
+
+.color-swatch-text h3{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-bottom: 0px;
+  font-size: 1.5em;
+}
+
+
+.color-swatch-text p{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-top: 0px;
+}
+
+.card-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #474642;
+    text-align: left;
+    margin: auto;
+    width: 90%;
+}
+
+.font-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+    border: #474642 2px solid;
+    color: #474642;
+    text-align: left;
+    margin: 0px auto;
+    width: 90%;
+    padding: 0px 30px;
+    margin: 30px auto;
+}
+
+.container-card {
+    display: inline-block;   
+    border: 2px solid #000000;
+    box-shadow: 0px 0px 20px 2px;
+    border-radius: 15px;
+    text-align: left;
+    padding: 30px;
+    margin: 20px auto;
+    width: 20%;
+    text-wrap: normal;
+    word-wrap:break-word;
+}
+
+
+/* Fonts */
+.knewave-regular {
+    font-family: "Knewave", system-ui;
+    font-weight: 500;
+    font-size: larger;
+  }
+
+ h3.knewave-regular{
+
+    font-family: "Knewave", system-ui;
+    font-size: 2em;
+    color: #000000;
+    margin: 0 auto;
+  }
+
+
+
+  .chewy-regular {
+    font-family: "Chewy", system-ui;
+    font-weight: 500;
+    font-size: larger;
+    font-style: normal;
+  }
+
+  h3.chewy-regular {
+    font-family: "Chewy", system-ui;
+    font-size: 2em;
+    color: #000000;
+    margin: 0 auto;
+    
+    
+  }
+  
+  .chicle-regular {
+    font-family: "Chicle", serif;
+    font-weight: 500;
+    font-size: larger;
+    font-style: normal;
+  }
+  
+  h3.chicle-regular {
+    font-family: "Chicle", serif;
+    font-size: 2em;
+    color: #000000;
+    margin: 0 auto;
+  }
+
+  
+  .text-style{
+    display: block;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: #474642 2px solid;
+    color: #474642;
+    text-align: left;
+    margin: 0px auto;
+    width: 90%;
+    padding: 0px 30px;
+    margin: 30px auto;
+  }
+
+  
+  
+ 
+
+  .text-style-card{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #000000;
+    text-align: left;
+    width: 90%;
+        
+  }
+
+  .color-container-heading{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2em;
+    font-weight: 500;
+    color: #000000;
+    text-align: left;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .font-container-heading{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2em;
+    font-weight: 500;
+    color: #000000;
+    text-align: left;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .text-style-heading{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2em;
+    font-weight: 500;
+    color: #000000;
+    text-align: left;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .text-style-card h1{
+    font-family: "knewave", system-ui;
+    font-weight: 700;
+    font-size: 26px;
+    color: #000000;
+    text-align: left;
+    width: 90%;
+        
+  }
+
+  .text-style-card h2{
+    font-family: "chewy", system-ui;
+    font-weight: 500;
+    font-size: 18px;
+    color: #000000;
+    text-align: left;
+    width: 90%;
+        
+  }
+
+  .text-style-card p{
+    font-family: "chicle", system-ui;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+    text-align: left;
+    width: 90%;
+        
+  }
+
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #474642;
+    color: #ffffff;
+    border-radius: 5px;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+
+  body {
+    margin-top: 150px; /* Adjust this value to create space for the fixed header */
+  } 
+
+  .button-container {
+    display: block;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: #474642 2px solid;
+    color: #474642;
+    text-align: center;
+    margin: 20px auto;
+    width: 90%;
+    padding: 0px 30px;
+    margin: 30px auto;
+  }
+
+  .button-container h2{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2em;
+    font-weight: 500;
+    color: #000000;
+    text-align: left;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .button-container .button-card{
+    display: inline-block;
+    border: 0px solid #000000;
+    box-shadow: 0px 0px 10px 1px;
+    border-radius: 5px;
+    text-align: center;
+  align-content: space-between;
+    
+    margin: 20px 20px;
+    text-wrap: normal;
+    word-wrap:break-word;
+  }
+   
+  
+  .button-container button {
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+
+  .nav-item {
+    display: inline-block;
+    justify-content: space-between;
+    align-items: left;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 10px;
+    z-index: 1000;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+
+
+ 
